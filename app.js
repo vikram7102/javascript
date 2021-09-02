@@ -1,8 +1,29 @@
-console.log("hey this is my 1 st js code")
-console.log(8753787774)
-console.log({me:"vikram"})
-console.log(true)
-console.log(false)
-console.log(true,7375773,{place:"jejuri"})
-console.warn("this is warning");
-console.error("this is ann error")
+//data types 
+// primitiv or non primitiv
+// primitive data types 
+
+var Name ="vikram";
+Name="bhosale";
+console.log(Name);
+
+let age=19;
+console.log(age);
+console.log(typeof age);
+
+let place="jejuri";
+console.log(place);
+console.log(typeof place);
+
+let brand ;
+console.log(brand);
+let isfalse=false
+let idtrue=true
+
+// non primitive data types
+let arr=[1,2,3,4,5];
+arr.push('value');
+arr.push(false);
+arr.unshift(true)
+console.log(arr);
+console.log(typeof arr)
+
