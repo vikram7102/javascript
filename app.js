@@ -1,29 +1,28 @@
-//data types 
-// primitiv or non primitiv
-// primitive data types 
 
-var Name ="vikram";
-Name="bhosale";
-console.log(Name);
+//operators in js
+//arithmetic operators
+let age = 19
+age =25
+console.log(age)
+console.log('---------------arithmetic operators----------------')
+const a=2
+const b=7
+let c=0
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a**b)
+console.log(a%b)
+console.log('---------------assignment operators----------------')
 
-let age=19;
-console.log(age);
-console.log(typeof age);
 
-let place="jejuri";
-console.log(place);
-console.log(typeof place);
-
-let brand ;
-console.log(brand);
-let isfalse=false
-let idtrue=true
-
-// non primitive data types
-let arr=[1,2,3,4,5];
-arr.push('value');
-arr.push(false);
-arr.unshift(true)
-console.log(arr);
-console.log(typeof arr)
-
+c+=1 //increament operator
+console.log(c)
+c++
+console.log(c)
+let g=5
+g*=5 // g=g*5
+console.log(g)
+g**=3
+console.log(g)
