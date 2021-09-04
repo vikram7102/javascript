@@ -1,10 +1,19 @@
-// const element =document.getElementById('select-me')
-//console.log(typeof element)
-// const element =document.getElementsByClassName('heading')
-// const element =document.getElementsByTagName('h2')
-// const element =document.querySelector('#select-me')
+const element =document.querySelector('#select-me')
+// element.innerHTML="this is from js"
 
- const element =document.querySelector('h3.heading')
+// element.style.color='cyan'
+// element.style.fontsize='46px'
+// element.style='display:none'
 
-console.log( element)
+// console.log( element.classList)
+// element.classList.add('five')
+// console.log( element.classList)
 
+// element.classList.remove('one')
+// console.log( element.classList)
+
+// const body =document.querySelector('body')
+//  console.log(body.classList.toggle('dark'))
+// console.log()
+
+const value =element.classlist.contains('three')//oit return true if three class present
