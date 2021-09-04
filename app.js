@@ -1,19 +1,8 @@
-const element =document.querySelector('#select-me')
-// element.innerHTML="this is from js"
+const buttun =document.querySelector('button')
+const body =document.querySelector('body')
 
-// element.style.color='cyan'
-// element.style.fontsize='46px'
-// element.style='display:none'
-
-// console.log( element.classList)
-// element.classList.add('five')
-// console.log( element.classList)
-
-// element.classList.remove('one')
-// console.log( element.classList)
-
-// const body =document.querySelector('body')
-//  console.log(body.classList.toggle('dark'))
-// console.log()
-
-const value =element.classlist.contains('three')//oit return true if three class present
+// console.log(buttun,element)
+buttun.addEventListener('click',() =>{
+    // console.log('you clicked me')
+    body.classList.toggle('dark')
+})
