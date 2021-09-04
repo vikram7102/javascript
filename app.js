@@ -1,17 +1,10 @@
-//conditionals statements
-// even or odd
-const a=7
-if(typeof 'number'){
-    
-    if(a%2===0){
-        console.log('the no is even')
-    }
-    
-    else{
-        console.log('the no is odd')
-    }
-}
-else{
-    console.error('not a no')
-}
+// const element =document.getElementById('select-me')
+//console.log(typeof element)
+// const element =document.getElementsByClassName('heading')
+// const element =document.getElementsByTagName('h2')
+// const element =document.querySelector('#select-me')
+
+ const element =document.querySelector('h3.heading')
+
+console.log( element)
 
