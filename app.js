@@ -1,8 +1,9 @@
-const buttun =document.querySelector('button')
-const body =document.querySelector('body')
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
 
-// console.log(buttun,element)
-buttun.addEventListener('click',() =>{
-    // console.log('you clicked me')
-    body.classList.toggle('dark')
-})
+function logname(Name="enter your name",age=18){
+    //console.log("vikram")
+    console.log(Name + " you are " +age)
+}
+logname("vikram",19)

@@ -7,22 +7,35 @@
     <title>javascript</title>
     <script defer src="./app.js" ></script>
     <style>
-        body{
-            background-color: #fff;
-        }
-        .aqua{
-            background-color: aqua;
-        }
-        .dark{
-            background-color: #111;
-        }
+       
+      div.images img {
+        width: 200px;
+      }
+
+      div.images img:hover {
+        cursor: pointer;
+      }
+    
     </style>
 </head>
 <body>
     
-    <div  class="one two three" id="selectme">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    <div class="images">
+        <img
+        id="rock"
+        src="https://www.svgrepo.com/show/323925/rock.svg"
+        alt=""
+      />
+      <img
+        id="paper"
+        src="https://www.svgrepo.com/show/318481/paper.svg"
+        alt=""
+      />
+      <img
+        id="scissor"
+        src="https://www.svgrepo.com/show/168499/scissors.svg"
+        alt=""
+      />
     </div>
-    <button>click me</button>
 </body>
 </html>
