@@ -7,35 +7,35 @@
     <title>javascript</title>
     <script defer src="./app.js" ></script>
     <style>
-       
-      div.images img {
-        width: 200px;
-      }
-
-      div.images img:hover {
-        cursor: pointer;
-      }
-    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: solid 3px ;
+            background-color: aqua;
+            margin: 3px 0;
+            padding: 2px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            color: #fff;
+        }
     </style>
 </head>
 <body>
-    
-    <div class="images">
-        <img
-        id="rock"
-        src="https://www.svgrepo.com/show/323925/rock.svg"
-        alt=""
-      />
-      <img
-        id="paper"
-        src="https://www.svgrepo.com/show/318481/paper.svg"
-        alt=""
-      />
-      <img
-        id="scissor"
-        src="https://www.svgrepo.com/show/168499/scissors.svg"
-        alt=""
-      />
+    <h1>welcome to javascript</h1>
+    <div class="container" id="first-container" >
+         <button id="click">click-me</button>
+         <p>this is the paragraph which is teh best para of universe
+
+         </p>
     </div>
+    <div class="container">
+        <p>this is the paragraph</p>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
